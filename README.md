@@ -26,9 +26,7 @@ Your backend can be anything, and does not have to work. If you would like to us
 
 You should use the following tools to accomplish this task:
 
- - React
- - Flux
- - Webpack (should run with webpack-dev-server)
+ - React or Vue
  - Babel - ES6/7 Syntax - you pick the stages
 
 If you have any questions, please ask!
