@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html {
+    display: grid;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: 0.025rem;
+    font-family: 'Inter', sans-serif;
+}
+
+select {
+    color: #6B7280;
+    font-size: 14px;
+    line-height: 24px;
+    background-color: #fff;
+    height: 36px;
+}
+
+input {
+    color: #6B7280;
+}
+
