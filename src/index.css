@@ -5,7 +5,6 @@
 @tailwind utilities;
 
 body, html {
-    background-color: #F3F4F6;
     display: grid;
     height: 100%;
     -webkit-font-smoothing: antialiased;
@@ -26,17 +25,3 @@ input {
     color: #6B7280;
 }
 
-button:disabled {
-    opacity: .4;
-    cursor: not-allowed;
-}
-
-.toggle-checkbox:checked {
-    @apply: right-0 border-[#0D8ABB];
-    right: 0;
-    border-color: #0D8ABB;
-  }
-  .toggle-checkbox:checked + .toggle-label {
-    @apply: border-[#0D8ABB];
-    background-color: #0D8ABB;
-  }
